@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@500&display=swap');
+
+/* reset de página e configurações gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Smooch Sans', sans-serif;
+
+}
+
+
+/* Estilização do início da apresentação */
+
+.container {
+    background-color: #c1f5f7;
+    width: 1100px;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.principal {
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.principal img {
+    width: 200px;
+    height: 250px;
+    margin: 10px;
+}
+
+.descricao {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+.dados,
+.sobre {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    height: 115px;
+    font-weight: 900;
+}
+
+.dados p,.sobre p h2 {
+    padding: 5px;
+}
+
+.habilidades {
+    width: 450px;
+    height: 250px;
+    padding: 20px;
+    background-color: #fff;
+    font-weight: 900;
+    font-size: 20px;
+    border-radius: 15px;
+
+}
+
+.habilidades h2 {
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.habilidades p {
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding-left: 10px;
+
+}
+
+.box_image {
+    font-size: 12px;
+}
+
+.box_image2 {
+    color: #98acd6;
+}
+
+/* Estilização dos Passatempos e Redes Sociais */
+
+.hobbies {
+    width: 920px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.passatempos,
+.redessociais {
+    width: 500px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    height: 115px;
+    font-weight: 900;
+}
+
+.passatempos h2,
+.redessociais h2 {
+    margin-left: 20px;
+}
+
+
+
+.passatempos li {
+    list-style: inside;
+
+}
+
+.passatempos li:hover {
+    font-size: 18px;
+    color: #98acd6;
+}
+
+
+.image_inst,
+.image_fb {
+
+    font-size: 55px;
+    padding: 10px;
+
+}
+
+.image_inst:hover{
+    font-size: 65px;
+    color:#c93d12;
+}
+
+.image_fb:hover{
+    font-size: 65px;
+    color:#7781d9;
+    
+    
+}
+
+/* Estilização da tabela e resumo final */
+
+.rodape {
+    width: 925px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.tabela {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.tabela caption {
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.tabela table,
+tr,
+th,
+td {
+    border: 2px solid;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
+
+.tabela th {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.tabela td {
+    font-size: 18px;
+}
+
+.tabela tfoot tr td {
+    font-size: 15px;
+}
+
+.resumo {
+    width: 600px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.resumo p {
+    font-weight: 900;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.resumo form{
+    width:400px;
+}
+
+.resumo fieldset{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resumo legend{
+    font-size: 20px;
+    font-weight: 900;
+
+}
+
+.box_image_2{
+    font-size: px;
+}
+
+.resumo label {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.resumo select{
+    width: 300px;
+    height: 40px;
+    
+}
+
+.resumo button{
+    width: 150px;
+    height: 20px;
+    font-size: 15px;
+}
